@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Nuxt build output
+nuxt/.output/
+nuxt/.nuxt/
+nuxt/.data/
+nuxt/dist/
+nuxt/dev-output.log
+nuxt/nuxt-dev.log
+
+# Environment files — never commit real secrets
+nuxt/.env
+directus/.env
+
+# Directus local data volumes
+directus/data/
+directus/uploads/
+directus/extensions/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
