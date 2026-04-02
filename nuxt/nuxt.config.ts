@@ -104,6 +104,11 @@ export default defineNuxtConfig({
 		},
 	},
 
+	nitro: {
+		externals: {
+			inline: ['unhead', '@unhead/schema', '@unhead/shared'],
+		},
+	},
+
 	compatibilityDate: '2025-01-16',
-	// Build: force rebuild with env vars
 });
